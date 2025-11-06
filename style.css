@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+}
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: black;
+    color: goldenrod;
+    align-items: center;
+    height: 5rem;
+}
+.navbar{
+    display: flex;
+    width: 40%;
+}
+.navbar ul{
+    width: 70%;
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: goldenrod;
+}
+
+.banner{
+    display: flex;
+    height: 28rem;
+    width: 100%;
+    background: hsl(0, 0%, 7%);
+}
+.banner_txt{
+    width: 50%;
+    align-self: center;
+    margin-left: 7rem;
+}
+.banner_txt h3{
+    color: white;
+    font-size: 2.5rem;
+}
+.banner button{
+    margin-top: 1rem;
+    background: goldenrod;
+    color: black;
+    height: 2rem;
+    width: 8rem;
+    border: none;
+    border-radius: 0.3rem;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 0.7rem;
+}
+.banner button:hover{
+    background: goldenrod;
+    color: white;
+}
+.banner_img{
+    align-self: center;
+    width: 50%;
+}
+.banner_img img{
+    width: 100%;
+}
+
+.content{
+    background: black;
+    height: 25rem;
+}
+.content_txt{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 2rem;
+}
+.menu{
+    width: 25%;
+    color: hsl(0, 0%, 70%);
+}
+.menu h2{
+    color: goldenrod;
+}
+.menu button{
+    margin-top: 1rem;
+    background: goldenrod;
+    color: black;
+    height: 2rem;
+    width: 8rem;
+    border: none;
+    border-radius: 0.3rem;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 0.7rem;
+}
+.menu button:hover{
+    background: goldenrod;
+    color: white;
+}
+.about{
+    width: 25%;
+    color: hsl(0, 0%, 70%);
+}
+.about h2{
+    color: goldenrod;
+}
+.reserve{
+    margin-top: 2rem;
+}
+.reserve h4{
+    color: goldenrod;
+    margin-bottom: 1rem;
+}
+.reserve input{
+    height: 2rem;
+    outline: none;
+    border: 1px solid hsl(43, 67%, 15%);
+    background: transparent;
+    margin-bottom: 0.5rem;
+    border-radius: 0.3rem;
+    padding-left: 0.7rem;
+    color: hsl(0, 0%, 70%);
+}
+.link a{
+    text-decoration: none;
+    color: goldenrod;
+}
+.food_img{
+    width: 30%;
+}
+.food_img img{
+    width: 70%;
+    border-radius: 0.5rem;
+}

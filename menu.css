@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+}
+.container{
+    width: 100%;
+    height: 60rem;
+    background: hsl(0, 0%, 10%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.card{
+    width: 50%;
+    height: 50rem;
+    background: black;
+}
+.logo{
+    color: goldenrod;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+}
+
+.h4_txt{
+    color: white;
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 2rem;
+}
+.class_1{
+    margin-top: 1.4rem;
+    color: goldenrod;
+    margin-left: 5.8rem;
+}
+.list1{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+.food_1 h4,a{
+    color: white;
+    text-decoration: none;
+}
+.food_1 p{
+    color: hsl(0, 0%, 70%);
+}
+.price_1{
+    color: white;
+}
